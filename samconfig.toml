@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "comprehend-01-nlp-03"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-18d1u3hw3hac2"
+s3_prefix = "comprehend-01-nlp-03"
+region = "ca-central-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+
